@@ -1,0 +1,17 @@
+{
+  "name": "learn.graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:migueldsg/learn.graphql.git",
+  "author": "Miguel <migueldsg0904@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1",
+    "nodemon": "^2.0.14",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  }
+}
