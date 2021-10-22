@@ -17,7 +17,7 @@
 
 ### Queries & Mutations (by order of the features list above)
 
-(optional)
+```(optional)
 query GetUsers {
   users {
     id
@@ -142,4 +142,4 @@ mutation RemoveCommentById($post: String!, $id: String!) {
     post: $post,
     id: $id
   )
-}
+}```
